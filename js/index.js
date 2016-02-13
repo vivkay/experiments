@@ -1,3 +1,5 @@
+
+
 function counter() {
   var today = new Date(); //variable contains current date and time
 
@@ -17,7 +19,7 @@ function counter() {
 function calcDays(currentDate) {
   //create a date object for date of graduation
   //calculate the difference between currentDate and set date
-  setDate = new Date("May 6, 2013");
+  setDate = new Date("April 29, 2016");
   currentTime = currentDate.getFullYear() + 1;
   setDate.setFullYear(currentTime);
 
