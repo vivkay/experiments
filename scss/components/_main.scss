@@ -110,7 +110,7 @@ body{
   border-color: transparent transparent transparent $sa-grey-2;
 }
 
-#sa-envelope:hover #sa-card {
+#sa-envelope:hover, #sa-envelope:active #sa-card {
   top:-20px;
 }
 
