@@ -22,9 +22,16 @@ html {
 
 body{
   text-align: center;
-  background: url(../img/background-transp.png);
   font-family: sans-serif;
   font-weight: 100;
+}
+
+.bg-light {
+    background: url(../img/background-transp.png);
+}
+
+.bg-dark {
+  background: url(../img/background-transp-k.png);
 }
 
 .clock-title {
@@ -49,6 +56,9 @@ body{
   font-size: .65em;
 }
 
+.sa-white {
+  color: $off-white;
+}
 
 @media only screen and (min-width: 38em){
 
