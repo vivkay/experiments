@@ -1728,6 +1728,10 @@ body {
 #sa-envelope:active #sa-card {
   top: -20px; }
 
+#sa-envelope:active #sa-card {
+  -webkit-animation: sa-card-up 1s linear forwards;
+  animation: sa-card-up 1s linear forwards; }
+
 #sa-card {
   width: 260px;
   height: 220px;
@@ -1744,6 +1748,18 @@ body {
   padding: 40px 0 0 0;
   color: #919499; }
 
+@-webkit-keyframes sa-card-up {
+  0% {
+    -webkit-transform: translateY(0px); }
+  100% {
+    -webkit-transform: translateY(-20px); } }
+@keyframes card-up {
+  0% {
+    transform: translateY(0px); }
+  80% {
+    -webkit-transform: translateY(-20px); }
+  100% {
+    transform: translateY(3px); } }
 .sa-thanks {
   padding-top: 50px;
   width: 200px;
