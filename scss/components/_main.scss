@@ -166,8 +166,6 @@ body{
     }
 }
 
-
-
 .sa-thanks {
   padding-top: 50px;
   width: 200px;
@@ -221,6 +219,13 @@ body{
     100% {
         transform: translateY(3px)
     }
+}
+
+.sa-line {
+  border-left:medium $sa-grey-2 solid;
+  height: 800px;
+  margin-left: 120px;
+  margin-top: 50px;
 }
 
 @media only screen and (min-width: 38em){
