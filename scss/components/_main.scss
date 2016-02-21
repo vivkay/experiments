@@ -70,8 +70,8 @@ body{
   z-index: 0;
   border-style: solid;
   border-width: 0 150px 100px 150px;
-  border-color: transparent transparent #256a98 transparent;
-  box-shadow: 0 100px 0 0 #256a98,
+  border-color: transparent transparent $sa-grey-4 transparent;
+  box-shadow: 0 100px 0 0 $sa-grey-4,
               0 150px 90px 0 rgba(0,0,0,0.3);
 }
 
@@ -89,7 +89,7 @@ body{
   height: 0;
   left: 0;
   border-width: 100px 150px 100px 0;
-  border-color: transparent $grey transparent transparent;
+  border-color: transparent $sa-grey-3 transparent transparent;
 }
 
 #sa-envelope:before{
@@ -97,7 +97,7 @@ body{
   height: 180px;
   left:-150px;
   border-width: 200px 0 0 300px;
-  border-color: transparent transparent transparent #3596da;
+  border-color: transparent transparent transparent $sa-grey-2;
 }
 
 #sa-envelope:hover #sa-card {
