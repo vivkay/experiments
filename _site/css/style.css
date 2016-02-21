@@ -1656,10 +1656,10 @@ body {
   font-weight: 100; }
 
 .bg-light {
-  background: url(../img/background-transp.png); }
+  background: url(../img/bg-white.png); }
 
 .bg-dark {
-  background: url(../img/background-transp-k.png); }
+  background: url(../img/bg-k.png); }
 
 .clock-title {
   font-size: 1em; }
