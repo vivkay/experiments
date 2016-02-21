@@ -89,7 +89,7 @@ body{
   height: 0;
   left: 0;
   border-width: 100px 150px 100px 0;
-  border-color: transparent #2a7fb5 transparent transparent;
+  border-color: transparent $grey transparent transparent;
 }
 
 #sa-envelope:before{
@@ -111,7 +111,7 @@ body{
   top:70px;
   left:-130px;
   z-index: -1;
-  background: #dcdcdc;
+  background: url(../img/bg-cream-01.png);
   border-radius: 0px;
   transition: top 0.5s ease-in-out;
   text-align: center;
