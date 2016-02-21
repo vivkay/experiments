@@ -1795,15 +1795,6 @@ body {
     -webkit-transform: translateY(2px); }
   100% {
     transform: translateY(3px); } }
-.sa-line {
-  border-left: medium #a6a5a8 solid;
-  height: 800px;
-  margin-left: 120px;
-  margin-top: 50px; }
-
-.sa-gift {
-  display: block; }
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
