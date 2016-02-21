@@ -34,7 +34,13 @@ body{
   background: url(../img/bg-k.png);
 }
 
+.sa-clock-wrapper {
+  display: block;
+  width: 100%;
+}
+
 .clock-title {
+  margin-top: 1em;
   font-size: 1em;
 }
 
