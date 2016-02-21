@@ -1722,7 +1722,10 @@ body {
   border-width: 200px 0 0 300px;
   border-color: transparent transparent transparent #a6a5a8; }
 
-#sa-envelope:hover, #sa-envelope:active #sa-card {
+#sa-envelope:hover #sa-card {
+  top: -20px; }
+
+#sa-envelope:active #sa-card {
   top: -20px; }
 
 #sa-card {
