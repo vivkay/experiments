@@ -174,7 +174,6 @@ body{
   transition: top 0.5s ease-in-out;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   padding: 40px 0 0 0;
   color: #919499;
 }
@@ -261,6 +260,14 @@ body{
 }
 
 /* Button styling inspired by http://codepen.io/jason-kinney/pen/fChrj */
+
+
+.box-glow {
+  box-shadow: 0 15px 105px rgba(255,255,255,.4),
+        0 -15px 60px lighten($black,1%),
+        inset 0 2px 2px lighten($black,1%);
+        width: 100%;
+}
 
 .sa-btn-bid {
     margin: 0 ;
@@ -494,6 +501,9 @@ body {
   opacity: 0;
 }
 
+.grey {
+  color: $sa-grey-4;
+}
 
 @media only screen and (min-width: 38em){
 

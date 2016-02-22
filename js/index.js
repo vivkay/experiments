@@ -39,3 +39,4 @@ function initializeClock(id, endtime) {
 
 var deadline = new Date(Date.parse(new Date('April 29 2016 18:59:59 GMT+02:00')));
 initializeClock('clockdiv', deadline);
+

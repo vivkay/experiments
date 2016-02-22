@@ -1781,7 +1781,6 @@ body {
   transition: top 0.5s ease-in-out;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   padding: 40px 0 0 0;
   color: #919499; }
 
@@ -1833,6 +1832,10 @@ body {
   100% {
     transform: translateY(3px); } }
 /* Button styling inspired by http://codepen.io/jason-kinney/pen/fChrj */
+.box-glow {
+  box-shadow: 0 15px 105px rgba(255, 255, 255, 0.4), 0 -15px 60px #030303, inset 0 2px 2px #030303;
+  width: 100%; }
+
 .sa-btn-bid {
   margin: 0;
   border: 0;
@@ -2048,6 +2051,9 @@ body {
   -moz-animation: bang 700ms ease-out forwards;
   animation: bang 700ms ease-out forwards;
   opacity: 0; }
+
+.grey {
+  color: #55565b; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
