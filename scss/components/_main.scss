@@ -65,31 +65,6 @@ body{
     100% { opacity: .4; }
 }
 
-.bottom-line {
-    width: 100%;
-    border-top: 1px solid rgba(255,255,255,.5);
-    -webkit-animation: slide-left 1s linear;
-    animation: slide-left 1s linear;
-}
-
-@keyframes slide-left {
-    0% {
-        transform: translateX(2000px);
-      }
-    100% {
-        transform: translateX(0px);
-    }
-}
-
-@-webkit-keyframes slide-right {
-    0% {
-        transform: translateX(2000px);
-      }
-    100% {
-        transform: translateX(0px);
-    }
-}
-
 .sa-clock-wrapper {
   display: block;
   width: 100%;
@@ -276,6 +251,25 @@ body{
     100% {
         transform: translateY(3px)
     }
+}
+
+/* Button styling from http://codepen.io/jason-kinney/pen/fChrj */
+
+.sa-btn-bid {
+      margin: 0 ;
+    border: 0;
+    font-size: .75rem;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    display:inline-block;
+    font-weight: lighter;
+    color: $black;
+    background-color: $off-white;
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+    box-shadow: 0 15px 55px rgba(255,255,255,.3),
+              0 -15px 60px lighten($black,1%),
+              inset 0 2px 2px lighten($black,1%);
 }
 
 @media only screen and (min-width: 38em){

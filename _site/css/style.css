@@ -1691,22 +1691,6 @@ body {
     opacity: .9; }
   100% {
     opacity: .4; } }
-.bottom-line {
-  width: 100%;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  -webkit-animation: slide-left 1s linear;
-  animation: slide-left 1s linear; }
-
-@keyframes slide-left {
-  0% {
-    transform: translateX(2000px); }
-  100% {
-    transform: translateX(0px); } }
-@-webkit-keyframes slide-right {
-  0% {
-    transform: translateX(2000px); }
-  100% {
-    transform: translateX(0px); } }
 .sa-clock-wrapper {
   display: block;
   width: 100%;
@@ -1842,6 +1826,21 @@ body {
     -webkit-transform: translateY(2px); }
   100% {
     transform: translateY(3px); } }
+/* Button styling from http://codepen.io/jason-kinney/pen/fChrj */
+.sa-btn-bid {
+  margin: 0;
+  border: 0;
+  font-size: .75rem;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: lighter;
+  color: #000;
+  background-color: #f8f2e9;
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  box-shadow: 0 15px 55px rgba(255, 255, 255, 0.3), 0 -15px 60px #030303, inset 0 2px 2px #030303; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
